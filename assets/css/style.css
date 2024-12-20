@@ -15,7 +15,7 @@ body {
   background: transparent;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   background: #010e1b;
@@ -24,6 +24,17 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
+} */
+body::before {
+  content: "";
+  position: fixed;
+  background: url('../img/background/bg.jpg') no-repeat center center;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; /* Ensures the height covers the entire viewport */
+  z-index: -1; /* Ensure it's placed behind the content */
 }
 
 @media (min-width: 1024px) {
