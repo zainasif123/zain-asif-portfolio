@@ -2,562 +2,1317 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#DBCBF3">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    gtag('config', 'UA-169007209-3');
-  </script>
-
-
-
-  <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <title> Zain Asif Portfolio </title>
 </head>
 
 <body>
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Zain Asif</a>
 
-    <div class="container">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
 
-      <h1><a href="index.html">Zain Asif</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://onedrive.live.com/?cid=9777A1C97F8B1B1E&id=9777A1C97F8B1B1E%2150782&parId=root&o=OneUp" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
 
-        </ul>
-      </nav><!-- .nav-menu -->
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
 
-      <div class="social-links">
-          <a href="https://www.linkedin.com/in/mzainasif15" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/zainasif123/zainasif123" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:asifzain981@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
 
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/profile.JPG" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>Focused and enthusiastic developer with a keen interest in software development and mobile application development. By comprehensive exposure
-            to the underlying concepts and applying them vividly to various projects, my love for these domains came into being.
-            I am a passionate individual who thrives to build applications and apply algorithms to solve real-world industry problems.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 05 October 2002</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +923206923801</li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong>Lahore, Pakistan</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> asifzain981@gmail.com</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-global-line" style="color: #ffbb2c;"></i>
-            <h3>Software Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-flutter-fill"style="color: #5579ff;"></i></i>
-            <h3>Mobile Application Development </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #5578ff;"></i>
-            <h3>Databases</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-camera-3-line" style="color: #e80368;"></i>
-            <h3>State Management</h3>
-          </div>
-        </div>
-        <!-- <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-english-input" style="color: #1c7d32;"></i>
-            <h3>API Integration</h3>
-          </div>
-        </div> -->
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-            <h3>Software Engineering</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-            <h3>Flutter with Firebase</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-            <h3>API Integration</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-image-line" style="color: #ffc107;"></i>
-            <h3>Flutter UI/UX Design
-            </h3>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-  </section><!-- End About Section -->
-
-
-
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/education/comsats.png" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#12d640">Ahmedabad University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>BS Software Engineering</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">August 2020 - July 2024</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <li>Data Structures &amp; Algorithms</li>
-                <li>Database Management Systems</li>
-                <li>Operating Systems</li>
-                <li>Mobile Application Development</li>
-                <li>Machine Learning</li>
-                <!-- <li>Computer Vision</li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    <div class="portfolio">
-    <div class="container">
-      <div class="section-title">
-        <h2>Online Certification</h2>
-      </div>
-
-      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/udemy.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Flutter Development</h4>
-              <div class="portfolio-links">
-                <a href="https://onedrive.live.com/?cid=9777A1C97F8B1B1E&id=9777A1C97F8B1B1E%2150781&parId=root&o=OneUp" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-           </div>
-          </div>
-
-
-  </section>
-  <!-- End Education Section -->
-
-
-
-  <!-- Start Experience Section -->
-
-  <section id="experience" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experience</h2>
-      </div>
-      <div class="row">
-          <div class="col-lg-12" data-aos="fade-up">
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="" style="color:#12d640">Eratech Pvt. Ltd.</a><br> </h4>
-                <h5 style="text-align:left;">September 2024 - Present</h5>
-                <p style="text-align:left;color:#fff"><em>Flutter Developer </em></p>
-                <ul style="text-align:left;">
-                  <li>I handle the core functionality of the system, including processing transactions, applying discounts, generating invoices, and supporting various payment methods.</li>
-                  <li>I manage the product inventory, track stock levels, and ensure accurate real-time data during sales transactions.</li>
-                  <li>I track customer information, manage loyalty programs, and generate purchase history to personalize the sales experience.</li>
-                <li> You generate reports on sales performance, stock levels, profit margins, and employee performance, helping with data-driven business decisions.</li>
-                <li>I configure user roles and access rights, ensuring secure and controlled access to the POS system's data.</li>
-                <li>I guide and mentor an intern, helping them understand and guide Flutter </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
                 </ul>
-              </div>
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="" style="color:#12d640">Eratech Pvt. Ltd.</a><br> </h4>
-                <h5 style="text-align:left;">August 2024 - Octuber 2024</h5>
-                <p style="text-align:left;color:#fff"><em>Flutter Intern Developer</em></p>
-                <ul style="text-align:left;">
-                  <li>I designing and building cross-platform mobile applications using Flutter, ensuring the app is performant, visually appealing, and responsive across iOS and Android devices.</li>
-                  <li>I collaborate with designers to implement user-friendly and interactive UIs. This involves translating design concepts into Flutter code while maintaining consistency and optimizing user experience.</li>
-                  <li>I writes clean, maintainable code and ensures efficient app performance. I debugging, fixing bugs, performing app updates, and ensuring compatibility with new versions of iOS and Android.</li>
-                <li> I integrates APIs to enable dynamic data exchange between the app and backend services. I implement offline storage solutions (like SQLite or Hive) to allow users to access data without an internet connection, ensuring smooth synchronization between local and remote databases when the device reconnects to the network.</li>
-                </ul>
-              </div>
-           
-    </div>
-  </section>
-
-  <!-- End Experience Section -->
-
-
-
-  <!-- Start Project Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <!-- <li data-filter=".filter-app">Web-App</li> -->
-            <li data-filter=".filter-project">Project</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Task Management System</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Snack Rewind Java</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/recommender.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+    <script>
+        window.onload = function () {
+            const typeWriter = (element, text, delay = 200) => {
+                let i = 0;
+                const typing = setInterval(() => {
+                    if (i < text.length) {
+                        element.innerHTML += text.charAt(i);
+                        i++;
+                    } else {
+                        clearInterval(typing);
+                    }
+                }, delay);
+            };
+
+          const delayBetweenTexts = 800; // 1 second delay between each text
+            setTimeout(() => typeWriter(document.getElementById('greeting'), 'Hello, I\'m', 100), 0);
+            setTimeout(() => typeWriter(document.getElementById('name'), 'Zain Asif', 100), delayBetweenTexts);
+            setTimeout(() => typeWriter(document.getElementById('education1'), 'Software Engineer', 100), delayBetweenTexts * 2);
+            setTimeout(() => typeWriter(document.getElementById('education2'), 'Specialized in Mobile App ', 100), delayBetweenTexts * 5);
+            setTimeout(() => typeWriter(document.getElementById('education3'), 'Development & Backend Solutions', 100), delayBetweenTexts * 8);
+
+        }
+    </script>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__greeting"><span id="greeting"></span></h1>
+                    <h2 class="home__name"><span id="name"></span></h2>
+                    <h3 class="home__education">
+                        <span id="education1"></span>
+                        <br>
+                        <span id="education2"></span>
+
+                        <br>
+                        <span id="education3"></span>
+                    </h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/zain_asif.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/zain.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mzainasif15/"
+                        target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/zainasif123" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/itzz_zain04/" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61555675935903" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+923206923801&text=Hey there!" target="_blank" class="home__social-link">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
             </div>
-          </div>
-        </div>
+        </section>
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>To-Do App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/prefil.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">1 Years Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">4+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        I'm Zain Asif, a highly skilled and results-driven Flutter developer with a strong focus on delivering seamless,
+                        high-performance mobile applications. My expertise spans cross-platform mobile development, backend integration, and
+                        leveraging emerging technologies like drones to create innovative solutions. <br> <br>
+                    
+                        My journey in software development is defined by a passion for learning, problem-solving, and a relentless
+                        commitment to excellence. I bring a proven track record of delivering scalable and efficient solutions, blending
+                        technical expertise with creativity to bring ideas to life. <br> <br>
+                    
+                        With proficiency in Flutter, Dart, Firebase, Stripe payment integration, and RESTful APIs, I excel in crafting
+                        intuitive user experiences and architecting robust backend systems. Whether it's refining user interfaces, building
+                        scalable APIs, or working collaboratively with diverse teams, I approach every project with a holistic and
+                        results-oriented mindset. <br> <br>
+                    
+                        Explore my portfolio to see my diverse range of projects, and don't hesitate to get in touch to discuss how we can
+                        collaborate on bringing your next big idea to reality.
+                    </p>
+
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
             </div>
-          </div>
-        </div> -->
+        </section>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center><h4>Video Surveillance System </h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Resume Section Classifier</h4>
-              <div class="portfolio-links">
-                <a href="projects/resume.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <br>
-          <center><h4>Tech Blog</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
+            <h2 class="section__title">My Experience</h2>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center><h4>Studdy Buddy Application</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/vdg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>E-Store</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center><h4>Covid App Tracker</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- End Project Section -->
+            <div class="skills__container container grid">
 
 
 
-  <!-- Start Skills Section -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Flutter Developer</h3>
 
-  <section id="skills" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
-                  <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone" height="50" width="120">
-                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="60" width="90">
-                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
-                  <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-ar21.svg" alt="vectorlogo.zone" height="50" width="190">
-                  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="vectorlogo.zone" height="50" width="190">
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Frontend</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">StateManagement</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Api Integration</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Responsive UI</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Dart</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Node.js Developer</h3>
+                
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                
+                                <div>
+                                    <h3 class="skills__name">API Development</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                
+                                <div>
+                                    <h3 class="skills__name">Express.js Framework</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                
+                                <div>
+                                    <h3 class="skills__name">RESTful APIs</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                
+                                <div>
+                                    <h3 class="skills__name">Database Integration</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+    
+            <div class="skills__content">
+                <h3 class="skills__title">Website Development</h3>
             
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">Frontend</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">Git</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills__content">
+                <h3 class="skills__title">Backend Development</h3>
+            
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                    
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">Node.js</h3>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">Firebase</h3>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <i class='bx bxs-badge-check'></i>
+                            <div>
+                                <h3 class="skills__name">MongoDB</h3>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            </div>
+        </section>
+
+ 
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Mobile Application <br> Development</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Application Development</h3>
+
+                            <p class="services__modal-description">
+                                As an experienced Flutter developer, I specialize in transforming your mobile app
+                                concepts into reality, delivering cross-platform applications with stunning UI/UX,
+                                optimal performance, and top-notch security. With a proven track record of successful
+                                projects and a commitment to on-time delivery, I'm your go-to partner for custom app
+                                solutions. Let's collaborate to create an exceptional mobile app that captivates users
+                                and sets you apart in the market. Contact me today, and together, we'll make your app
+                                vision a reality. Client satisfaction guaranteed.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can develop the Android App
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can develop the IOS App
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can develop the User Interfaces.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can develop the Responsive UI.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can integrate the API in the Application. </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can integrate the Firebase service.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can implement the State Management in Application.
+                                    </p>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="services__card">
+                    <h3 class="services__title">Website <br> Development</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Website Development</h3>
+
+                            <p class="services__modal-description">
+                                I'm an experienced Flutter developer with a focus on creating responsive and visually
+                                appealing websites, combining the power of Flutter with web technologies to deliver
+                                outstanding online experiences for your business or project.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can Develop the static Website.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        i can design web page and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can integrate the database with Website
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+
+                                        I can integrate the API in the Website.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I can host the static website.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <h2 class="section__title">My Work</h2>
+
+            <!-- Single work__container holding all cards -->
+
+
+            <div class="work__container container grid">
+                <!--=============== Marrow Master ===============-->
+                <div class="work__card mix mobile">
+                    <img src="assets/img/work 6.png" alt="" class="work__img">
+                    <h3 class="work__title">Blocks POS (QSR)</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--=============== Gesture Detector ===============-->
+                <div class="work__card mix mobile">
+                    <img src="assets/img/work 52.png" alt="" class="work__img">
+                    <h3 class="work__title">Intellegent Video Surveillance Systeme</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--=============== Ortheristis===============-->
+                <div class="work__card mix mobile">
+                    <img src="assets/img/work 4.png" alt="" class="work__img">
+                    <h3 class="work__title">Task Management System</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--=============== Safe Guard ===============-->
+                <div class="work__card mix mobile">
+                    <img src="assets/img/work 3.png" alt="" class="work__img">
+                    <h3 class="work__title">Covid Tracker</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+
+                <!--=============== Uniyo Ltd ===============-->
+                <div class="work__card mix mobile ">
+                    <img src="assets/img/work 2.png" alt="" class="work__img">
+                    <h3 class="work__title">e-Store</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--=============== Aaaladen Ltd ===============-->
+                <div class="work__card mix mobile ">
+                    <img src="assets/img/work 1.png" alt="" class="work__img">
+                    <h3 class="work__title">Movie App</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--=============== Viharam ===============-->
+                <div class="work__card mix mobile ">
+                    <img src="assets/img/work7.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Studdy Buddy Application</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+                <!--===============Complaint Application ===============-->
+                <div class="work__card mix mobile">
+                    <img src="assets/img/work 8.png" alt="" class="work__img">
+                    <h3 class="work__title">Sport Store</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+
+
+                <!--=============== Gulbahar Tailor App ===============-->
+                <!-- <div class="work__card mix mobile ">
+                    <img src="assets/img/work 9.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Food Booking App</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div> -->
+
+                <!--=============== car wash App ===============-->
+                <!-- <div class="work__card mix mobile ">
+                    <img src="assets/img/work5.png" alt="" class="work__img">
+                    <h3 class="work__title">Car Wash App</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div> -->
+
+                <!--=============== Entertainment App ===============-->
+                <!-- <div class="work__card mix mobile">
+                    <img src="assets/img/work3.png" alt="" class="work__img">
+                    <h3 class="work__title">Entertainment App</h3>
+                    <span class="work__button">
+                        View More <i class='bx bx-right-arrow work__icon'></i>
+                    </span>
+                </div>
+            </div> -->
+
+            <!-- Modal containers should be outside of the cards, as you've done -->
+            <div class="work__modal work__modal--1">
+                <div class="work__modal-content">
+                    <button class='work__modal-close'>
+                    <i class='bx bx-x work__modal-close'></i>
+                    </button>
+                    <h3 class="work__modal-title">Blocks POS (QSR)</h3>
+                    <p class="work__modal-description">
+                        This project is a Quick Service restaurants (QSR) system designed for efficient sales and stock management that operates both online and offline.
+                    </p>
+                    <ul class="work__modal-list">
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><strong>Mobile Application:</strong> Built using Flutter, the application
+                                enables real-time functionalities and seamless offline and online operations developed cross platform for both Android and IOS.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><strong>Tools & Techniques:</strong> Flutter, Dart (frontend and backend),
+                                Bloc with Freezed for state management, Drift DB for local storage, and robust syncing mechanisms
+                                for offline-to-online transitions. Additional tools include .dot Net API, and GitHub for
+                                version control.</p>
+                        </li>
+                        <!-- <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><strong>Project Achievements:</strong> Finalist in the Google Solution
+                                Challenge 2024, 1st place in the Build with AI Idea Competition at GDSC CUI ATD, Runner-Up in the
+                                SparkPitch Idea Competition at Tech Vision, Islamia College.</p>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__modal work__modal--2">
+                <div class="work__modal-content">
+                    <i class='bx bx-x work__modal-close'></i>
+                    <h3 class="work__modal-title">Video Surveillance System</h3>
+                    <p class="work__modal-description">
+                    The Video Surveillance System is an advanced AI-powered Android application designed to enhance safety by detecting
+                    violent or suspicious activities in real time. This system provides alerts and evidence of anomalies, such as fire,
+                    fighting, and road accidents, to authorized users. It is specifically engineered for environments where real-time
+                    monitoring and rapid response are crucial.
+                    </p>
+                    </p>
+                    <ul class="work__modal-list">
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Real-Time Detection: Detects and alerts users of violent or suspicious activities as they occur.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Implemented custom data generators to handle image augmentation
+                                and preprocessing.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Achieved an overall  accuracy of 87.08% on the
+                                test set.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Video Upload & Analysis: Users can upload videos from their gallery for violence/anomaly detection.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Anomaly Evidence: Provides evidence of detected anomalies to registered users</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Developed a cross-platform desktop application using Flutter to
+                                integrate the trained model for real-time voilence detection-based frame it receive.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Tools/Techniques:</b> Python, TensorFlow, Keras, OpenCV,
+                                ImageDataGenerator, NumPy, JSON, FlaskAPI, Flutter, Firebase.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        <div class="work__modal work__modal--3">
+            <div class="work__modal-content">
+                <i class='bx bx-x work__modal-close'></i>
+                <h3 class="work__modal-title">Task-Management-System</h3>
+                <p class="work__modal-description">
+                   This project is a feature-rich, intuitive
+                    application designed to help users organize and manage their tasks efficiently. Built using the Flutter
+                    framework, this app offers a seamless and responsive user experience across multiple platforms, including
+                    iOS, Android, and the web.
                 </p>
+                <ul class="work__modal-list">
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Task Creation and Management: Easily create, edit, and delete tasks.
+                            Organize tasks into different categories and prioritize them based on urgency and importance.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Due Date and Calendar: Set due dates and receive notifications to stay on
+                            top of your deadlines.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Subtasks and Checklists: Break down large tasks into smaller subtasks and
+                            use checklists to ensure all steps are completed.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Synchronization: Sync your tasks across multiple devices with cloud storage
+                            integration.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">User Authentication: Secure login and registration system to protect user
+                            data and personalize the user experience.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Theming and Customization: Personalize the app’s appearance with various
+                            themes and customizable settings.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info"><b>Technologies Used:</b> Flutter, Firebase.</p>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                <p style="text-align:left;">
-                  <!-- <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="vectorlogo.zone"> -->
-                  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="vectorlogo.zone">
-                 
-              </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Tools</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg" alt="vectorlogo.zone">
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- End Skills Section -->
-
-<!-- End Links Section -->
-
-<!-- End Links Section -->
-
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Lahore,Punjab</p>
-      
-          </div>
         </div>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/mzainasif15/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://github.com/zainasif123" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="mailto:asifzain981@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
 
+
+        <div class="work__modal work__modal--4">
+            <div class="work__modal-content">
+                <i class='bx bx-x work__modal-close'></i>
+                <h3 class="work__modal-title">COVID App Tracker</h3>
+                <p class="work__modal-description">
+                    This Flutter application provides real-time COVID-19 statistics both globally and for specific countries. It
+                    leverages the disease.sh API to fetch and display accurate data regarding the pandemic.
+                </p>
+                <ul class="work__modal-list">
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Fetched global and country-specific COVID-19 statistics using the disease.sh
+                            API.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Designed an intuitive and responsive user interface for seamless navigation
+                            across different sections, such as global stats, country-wise data, and historical trends.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Implemented real-time updates for critical statistics, including total
+                            cases, active cases, recovered cases, and deaths.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Integrated charts and graphs to visualize data trends over time, providing
+                            users with insights into pandemic progression.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Incorporated a country search feature, enabling users to access data for any
+                            country instantly.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Added sorting and filtering options for countries based on parameters like
+                            total cases, recovered rates, and mortality rate.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Implemented dark mode functionality for improved user experience and
+                            accessibility.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Deployed push notifications to alert users about sudden spikes in cases or
+                            new updates about the pandemic.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info"><b>Technologies Used:</b> Flutter, disease.sh API, REST API integration,
+                            Charts/Graph library.</p>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>asifzain981@gmail.com</p>
-          
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+923206923801</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
+
+            <div class="work__modal work__modal--6">
+                <div class="work__modal-content">
+                    <i class='bx bx-x work__modal-close'></i>
+                    <h3 class="work__modal-title">e-Store App: Electronics Shop Platform</h3>
+                    <p class="work__modal-description">
+                        The e-Store App is a powerful application tailored to streamline the selling of computer accessories for a
+                        local electronics shop. It provides an efficient solution with separate interfaces for clients and
+                        administrators, ensuring an optimal experience for all users.
+                    </p>
+                    <ul class="work__modal-list">
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Client Side:</b> Features an intuitive interface for customers to browse,
+                                view, and purchase products with ease.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Real-Time Updates:</b> Provides secure user authentication and real-time
+                                updates using Firebase, ensuring data accuracy and user engagement.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Admin Side:</b> Empowers administrators with robust tools for product and
+                                order management, as well as user data handling for better insights.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>State Management:</b> Utilizes advanced techniques to maintain smooth and
+                                responsive app interactions across all user interactions.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Technical Stack:</b> Built using Flutter for cross-platform
+                                compatibility, Firebase for real-time database management, and Stripe for secure payment processing.
+                            </p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Incorporates a clean and visually appealing UI, focusing on enhancing user
+                                experiences for clients and administrators.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Dynamic product catalog and cart functionality for seamless customer
+                                interactions and streamlined checkout processes.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+<div class="work__modal work__modal--6">
+    <div class="work__modal-content">
+        <i class='bx bx-x work__modal-close'></i>
+        <h3 class="work__modal-title">Movie App: Browse & Discover</h3>
+        <p class="work__modal-description">
+            Developed a Movie App designed for discovering, searching, and managing favorite movies. The app features an
+            intuitive and visually rich UI with functionalities for both casual movie-goers and enthusiasts. State
+            management and navigation are handled with GetX, while data is sourced from third-party APIs to provide
+            accurate movie details.
+        </p>
+        <ul class="work__modal-list">
+            <li class="work__modal-item">
+                <i class='bx bx-check-circle'></i>
+                <p class="work__modal-info">Created a user-friendly movie app with a visually appealing and intuitive UI
+                    for movie browsing and discovery.</p>
+            </li>
+            <li class="work__modal-item">
+                <i class='bx bx-check-circle'></i>
+                <p class="work__modal-info">Implemented GetX for state management and navigation, ensuring seamless
+                    transitions and a fluid user experience.</p>
+            </li>
+            <li class="work__modal-item">
+                <i class='bx bx-check-circle'></i>
+                <p class="work__modal-info">Designed the app to be cross-platform, offering consistent performance
+                    across various devices and screen sizes.</p>
+            </li>
+            <li class="work__modal-item">
+                <i class='bx bx-check-circle'></i>
+                <p class="work__modal-info">Sourced accurate and real-time data from a movie database API for searching
+                    movies, genres, and detailed information.</p>
+            </li>
+            <li class="work__modal-item">
+                <i class='bx bx-check-circle'></i>
+                <p class="work__modal-info">Added features for managing user preferences, such as creating watchlists
+                    and tracking favorite movies.</p>
+            </li>
+        </ul>
     </div>
-  </section>
+</div>
 
-  <!-- End Contact Section -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Software Engineer", "Developer", "Tech Enthusiast"],
-      loop: true,
-      typeSpeed: 65,
-      backSpeed: 65
-    });
-  </script>
+        <div class="work__modal work__modal--7">
+            <div class="work__modal-content">
+                <i class='bx bx-x work__modal-close'></i>
+                <h3 class="work__modal-title">Study Buddy App</h3>
+                <p class="work__modal-description">
+                    Study Buddy is an Android application designed to foster collaborative learning and provide comprehensive
+                    academic support. It facilitates interactive and engaging study sessions, enabling students to achieve their
+                    academic goals while building a vibrant learning community.
+                </p>
+                <ul class="work__modal-list">
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Secure user registration and authentication for seamless onboarding.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Create and join virtual study groups to collaborate effectively with peers.
+                        </p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Integrated real-time live chat, allowing users to exchange messages and
+                            share media files.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Document sharing features for uploading and sharing resources such as
+                            images, videos, and PDFs.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Flexible quiz creation and participation tools with instant feedback for
+                            efficient learning.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Task scheduling feature for managing study goals and deadlines.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info"><b>Technology Stack:</b> Built using Flutter for the UI, with Firebase
+                            handling real-time database and user authentication.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info"><b>Outcome:</b> Successfully delivered an interactive platform optimized for
+                            collaboration, achieving a high user satisfaction rate.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
+        <div class="work__modal work__modal--9">
+            <div class="work__modal-content">
+                <i class='bx bx-x work__modal-close'></i>
+                <h3 class="work__modal-title">Shopping Store Website</h3>
+                <p class="work__modal-description">
+                    A semester project featuring a responsive e-commerce website designed for selling shirts, shoes, and
+                    watches. Built with HTML, CSS, and JavaScript, the project focused on creating an engaging, user-friendly
+                    frontend.
+                </p>
+                <ul class="work__modal-list">
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Showcased products with detailed listings, intuitive navigation, and modern
+                            design aesthetics.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Implemented category-specific product filtering (shirts, shoes, watches) for
+                            an improved user experience.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Developed an interactive shopping cart feature using JavaScript, enabling
+                            users to add, view, and remove items dynamically.</p>
+                    </li>
+                    <li class="work__modal-item">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="work__modal-info">Focused on responsive design principles to ensure optimal display across
+                            devices, enhancing usability on both desktop and mobile platforms.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+            <div class="work__modal work__modal--9">
+                <div class="work__modal-content">
+                    <i class='bx bx-x work__modal-close'></i>
+                    <h3 class="work__modal-title">Tailor Shop Management App</h3>
+                    <p class="work__modal-description">
+                        Developed a comprehensive application for a tailor shop to streamline order management and
+                        customer communication. The app enables the Admin to assign orders to Workers and manage
+                        customer data using Firebase. It features a notification system where Workers receive alerts
+                        upon new order assignments, and Admins are notified when orders are completed, facilitating
+                        efficient order tracking and communication between Admins, Workers, and Customers.
+                    </p>
+                    <ul class="work__modal-list">
+
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info"><b>Tools & Techniques:</b> Firebase Authentication, Firestore
+                                Database, Firebase Cloud Messaging, Flutter Local Notifications.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="work__modal work__modal--10">
+                <div class="work__modal-content">
+                    <i class='bx bx-x work__modal-close'></i>
+                    <h3 class="work__modal-title">Car Wash App</h3>
+                    <p class="work__modal-description">
+                        Developed a Car Wash App that allows users to book car wash services and visit the garage. The
+                        app is built using Flutter to ensure cross-platform compatibility. GetX is utilized for state
+                        management, and Firebase handles authentication and data storage, providing a seamless and
+                        efficient user experience.
+                    </p>
+                    <ul class="work__modal-list">
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Created a Car Wash App where users can book services and visit
+                                the garage.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Used Flutter for cross-platform development to reach a broad
+                                audience.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Implemented GetX for efficient state management and a smooth
+                                user experience.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Utilized Firebase for user authentication and data storage,
+                                ensuring secure and reliable backend services.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__modal work__modal--11">
+                <div class="work__modal-content">
+                    <i class='bx bx-x work__modal-close'></i>
+                    <h3 class="work__modal-title">TikTok-like App</h3>
+                    <p class="work__modal-description">
+                        Created a TikTok-like app using Flutter, designed to offer a seamless video-sharing experience
+                        similar to the popular social media platform. The app features a responsive UI and is built to
+                        be cross-platform. Firebase is utilized for database management, while GetX handles state
+                        management, ensuring efficient data handling and a smooth user experience.
+                    </p>
+                    <ul class="work__modal-list">
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Developed a TikTok-like app with Flutter, providing a
+                                video-sharing experience across platforms.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Utilized Firebase for database management to handle video
+                                storage and user data.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Implemented GetX for state management to ensure smooth data
+                                handling and real-time updates.</p>
+                        </li>
+                        <li class="work__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="work__modal-info">Designed a responsive UI that adapts to various screen sizes,
+                                enhancing cross-platform usability.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <!-- =============== TESTIMONIALS ===============-->
+        <!-- <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Jhon Doe</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were done well.
+                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Ada Hill</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were done well.
+                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Jessica Park</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were done well.
+                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section> -->
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+
+            <h2 class="contact__title contact__title-info">Talk to me</h2>
+
+            <div class="contact__container ">
+                <div class="contact__info contact__container container grid">
+                    <div class="contact__card">
+                        <i class='bx bx-mail-send contact__card-icon'></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">asifzain981@gmail.com</span>
+
+                        <a href="mailto:asifzain981@gmail.com" target="_blank" class="contact__button">
+                            Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class='bx bxl-whatsapp contact__card-icon'></i>
+                        <h3 class="contact__card-title">Whatsapp</h3>
+                        <span class="contact__card-data">+923206923801</span>
+
+                        <a href="https://api.whatsapp.com/send?phone=+923206923801&text=Hey there!" target="_blank"
+                            class="contact__button">
+                            Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class='bx bxl-linkedin contact__card-icon'></i>
+                        <h3 class="contact__card-title">Linkedin</h3>
+                        <span class="contact__card-data">Zain Asif</span>
+
+                        <a href="https://www.linkedin.com/in/mzainasif15/"
+                            target="_blank" class="contact__button">
+                            Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Zain Asif</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/profile.php?id=100005676348753&mibextid=ZbWKwL" target="_blank"
+                        class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/mzainasif15/"
+                        target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://instagram.com/rizwanshah1234?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"
+                        class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
